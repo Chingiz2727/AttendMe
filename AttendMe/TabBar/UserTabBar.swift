@@ -1,30 +1,52 @@
 //
-//  UserTabBar.swift
-//  AttendMe
+//  TabBarViewController.swift
+//  TabbarController
 //
-//  Created by Чингиз on 1/24/19.
-//  Copyright © 2019 Чингиз. All rights reserved.
+//  Created by Hoàng Khánh on 4/11/18.
+//  Copyright © 2018 Hoàng Khánh. All rights reserved.
 //
 
 import UIKit
 
-class UserTabBar: UITabBarController {
-
+@available(iOS 10.0, *)
+class TeacherTabBar: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let mainpage = UINavigationController.init(rootViewController: ScheduleTableView())
+        mainpage.title = "Расписание"
+        let news = UINavigationController.init(rootViewController: SettingTableView())
+        let schedule = UINavigationController.init(rootViewController: MyTeacherTableViewController())
+        
+        mainpage.tabBarItem = UITabBarItem(title: "Расписание", image: nil, tag: 0)
+        schedule.tabBarItem = UITabBarItem(title: "Мои уроки", image: nil, tag: 1)
+        news.tabBarItem = UITabBarItem(title: "Настройки", image: nil, tag: 2)
+        viewControllers = [mainpage,news,schedule]
+        self.selectedIndex = 0
+        navigationItem.title = "Главная"
+        self.selectedViewController = mainpage
+        self.tabBar.tintColor = .black
+        tabBar.isTranslucent = false
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+        switch item.tag {
+        case 0:
+            navigationItem.title = "Расписание"
+            tabBar.tintColor = .black
+            tabBar.backgroundColor = UIColor.black
+            break
+        case 1:
+            navigationItem.title = "Мои Уроки"
+            tabBar.tintColor = .black
+            break
+        case 2:
+            navigationItem.title = "Настройки"
+            tabBar.tintColor = .black
+            break
+        default:
+            break
+        }
     }
-    */
-
+    
 }

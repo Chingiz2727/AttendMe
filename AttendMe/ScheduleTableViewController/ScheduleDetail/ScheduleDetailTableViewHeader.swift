@@ -7,14 +7,65 @@
 //
 
 import UIKit
-
+import SnapKit
 class ScheduleDetailTableViewHeader: UITableViewCell {
-
+    var teacher = UILabel()
+    var lesson = UILabel()
+    var img = UIImageView()
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        addview()
+        addstyle()
+    }
+    
+    func addview() {
+        self.addSubview(teacher)
+        self.addSubview(lesson)
+        self.addSubview(img)
+        img.snp.makeConstraints { (cons) in
+            cons.top.equalTo(self).inset(10)
+            cons.centerX.equalTo(self)
+            cons.width.equalTo(100)
+            cons.height.equalTo(100)
+        }
+        teacher.snp.makeConstraints { (cons) in
+            cons.top.equalTo(img.snp.bottom).offset(10)
+            cons.centerX.equalTo(self)
+            cons.height.equalTo(30)
+            cons.left.equalTo(self).inset(10)
+            cons.right.equalTo(self).inset(10)
+        }
+        lesson.snp.makeConstraints { (cons) in
+            cons.top.equalTo(teacher.snp.bottom).offset(10)
+            cons.centerX.equalTo(self)
+            cons.height.equalTo(30)
+            cons.left.equalTo(self).inset(10)
+            cons.right.equalTo(self).inset(10)
+        }
+        
+    }
+    
+    
+    
+    func addstyle() {
+        lesson.numberOfLines = 0
+        teacher.numberOfLines = 0
+        lesson.font = UIFont(name: "Arial", size: 13)
+        teacher.font = UIFont(name: "Arial", size: 13)
+        img.layer.cornerRadius = 50
+        img.image = UIImage.init(named: "avatar")
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

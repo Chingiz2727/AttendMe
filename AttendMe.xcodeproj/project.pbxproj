@@ -3,25 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		725635D121F9870E00B18B17 /* UserTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725635D021F9870E00B18B17 /* UserTabBar.swift */; };
+		725635D421F996C100B18B17 /* ScheduleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725635D321F996C100B18B17 /* ScheduleTableView.swift */; };
+		725635D721F9977200B18B17 /* SettingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725635D621F9977200B18B17 /* SettingTableView.swift */; };
+		725635DA21F9993B00B18B17 /* MyTeacherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725635D921F9993B00B18B17 /* MyTeacherTableViewController.swift */; };
+		725635DC21F9D1F700B18B17 /* LoginPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725635DB21F9D1F700B18B17 /* LoginPresent.swift */; };
+		725635DE21F9D6B600B18B17 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725635DD21F9D6B600B18B17 /* ScheduleTableViewCell.swift */; };
+		726676EB21FF0D1900AAA9D5 /* ScheduleDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726676EA21FF0D1900AAA9D5 /* ScheduleDetailTableViewController.swift */; };
+		726676ED21FF144700AAA9D5 /* MyTeacherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726676EC21FF144700AAA9D5 /* MyTeacherTableViewCell.swift */; };
 		72BA4F5721F85F3A00641A19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BA4F5621F85F3A00641A19 /* AppDelegate.swift */; };
-		72BA4F5921F85F3A00641A19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BA4F5821F85F3A00641A19 /* ViewController.swift */; };
-		72BA4F5C21F85F3A00641A19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72BA4F5A21F85F3A00641A19 /* Main.storyboard */; };
+		72BA4F5921F85F3A00641A19 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BA4F5821F85F3A00641A19 /* LoginController.swift */; };
 		72BA4F5E21F85F3E00641A19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72BA4F5D21F85F3E00641A19 /* Assets.xcassets */; };
 		72BA4F6121F85F3E00641A19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72BA4F5F21F85F3E00641A19 /* LaunchScreen.storyboard */; };
+		72BA4F6A21F8615300641A19 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BA4F6921F8615300641A19 /* LoginView.swift */; };
+		72E42A32220151F0003C46B9 /* ScheduleDetailTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E42A31220151F0003C46B9 /* ScheduleDetailTableViewHeader.swift */; };
+		72E42A342201554A003C46B9 /* ScheduleDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E42A332201554A003C46B9 /* ScheduleDetailTableViewCell.swift */; };
+		8E8E4719A404D911677E234A /* Pods_AttendMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCEA248CAA012F6B45B17DB /* Pods_AttendMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A5B2FFD2D0FD1A0608DCEFC /* Pods-AttendMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttendMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AttendMe/Pods-AttendMe.debug.xcconfig"; sourceTree = "<group>"; };
+		725635D021F9870E00B18B17 /* UserTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTabBar.swift; sourceTree = "<group>"; };
+		725635D321F996C100B18B17 /* ScheduleTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableView.swift; sourceTree = "<group>"; };
+		725635D621F9977200B18B17 /* SettingTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableView.swift; sourceTree = "<group>"; };
+		725635D921F9993B00B18B17 /* MyTeacherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeacherTableViewController.swift; sourceTree = "<group>"; };
+		725635DB21F9D1F700B18B17 /* LoginPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresent.swift; sourceTree = "<group>"; };
+		725635DD21F9D6B600B18B17 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		726676EA21FF0D1900AAA9D5 /* ScheduleDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDetailTableViewController.swift; sourceTree = "<group>"; };
+		726676EC21FF144700AAA9D5 /* MyTeacherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeacherTableViewCell.swift; sourceTree = "<group>"; };
 		72BA4F5321F85F3A00641A19 /* AttendMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttendMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BA4F5621F85F3A00641A19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72BA4F5821F85F3A00641A19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		72BA4F5B21F85F3A00641A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72BA4F5821F85F3A00641A19 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		72BA4F5D21F85F3E00641A19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72BA4F6021F85F3E00641A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72BA4F6221F85F3E00641A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72BA4F6921F8615300641A19 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		72E42A31220151F0003C46B9 /* ScheduleDetailTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDetailTableViewHeader.swift; sourceTree = "<group>"; };
+		72E42A332201554A003C46B9 /* ScheduleDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDetailTableViewCell.swift; sourceTree = "<group>"; };
+		BF499EE8FBF408B30144987D /* Pods-AttendMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttendMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-AttendMe/Pods-AttendMe.release.xcconfig"; sourceTree = "<group>"; };
+		DDCEA248CAA012F6B45B17DB /* Pods_AttendMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AttendMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8E4719A404D911677E234A /* Pods_AttendMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		361EF51A8DF6DF83E3948CFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDCEA248CAA012F6B45B17DB /* Pods_AttendMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		725635CF21F986C100B18B17 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				725635D021F9870E00B18B17 /* UserTabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		725635D221F9962000B18B17 /* ScheduleTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				726676E921FF0CEF00AAA9D5 /* ScheduleDetail */,
+				725635D321F996C100B18B17 /* ScheduleTableView.swift */,
+				725635DD21F9D6B600B18B17 /* ScheduleTableViewCell.swift */,
+			);
+			path = ScheduleTableViewController;
+			sourceTree = "<group>";
+		};
+		725635D521F9976100B18B17 /* SettinController */ = {
+			isa = PBXGroup;
+			children = (
+				725635D621F9977200B18B17 /* SettingTableView.swift */,
+			);
+			path = SettinController;
+			sourceTree = "<group>";
+		};
+		725635D821F9992800B18B17 /* MyTeachers */ = {
+			isa = PBXGroup;
+			children = (
+				725635D921F9993B00B18B17 /* MyTeacherTableViewController.swift */,
+				726676EC21FF144700AAA9D5 /* MyTeacherTableViewCell.swift */,
+			);
+			path = MyTeachers;
+			sourceTree = "<group>";
+		};
+		726676E921FF0CEF00AAA9D5 /* ScheduleDetail */ = {
+			isa = PBXGroup;
+			children = (
+				726676EA21FF0D1900AAA9D5 /* ScheduleDetailTableViewController.swift */,
+				72E42A332201554A003C46B9 /* ScheduleDetailTableViewCell.swift */,
+				72E42A31220151F0003C46B9 /* ScheduleDetailTableViewHeader.swift */,
+			);
+			path = ScheduleDetail;
+			sourceTree = "<group>";
+		};
 		72BA4F4A21F85F3A00641A19 = {
 			isa = PBXGroup;
 			children = (
 				72BA4F5521F85F3A00641A19 /* AttendMe */,
 				72BA4F5421F85F3A00641A19 /* Products */,
+				BB678E08739ECAC2772D6B41 /* Pods */,
+				361EF51A8DF6DF83E3948CFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +135,35 @@
 			isa = PBXGroup;
 			children = (
 				72BA4F5621F85F3A00641A19 /* AppDelegate.swift */,
-				72BA4F5821F85F3A00641A19 /* ViewController.swift */,
-				72BA4F5A21F85F3A00641A19 /* Main.storyboard */,
+				725635D821F9992800B18B17 /* MyTeachers */,
+				725635D521F9976100B18B17 /* SettinController */,
+				725635D221F9962000B18B17 /* ScheduleTableViewController */,
+				725635CF21F986C100B18B17 /* TabBar */,
 				72BA4F5D21F85F3E00641A19 /* Assets.xcassets */,
+				72BA4F6821F8613900641A19 /* UserLogin */,
 				72BA4F5F21F85F3E00641A19 /* LaunchScreen.storyboard */,
 				72BA4F6221F85F3E00641A19 /* Info.plist */,
 			);
 			path = AttendMe;
+			sourceTree = "<group>";
+		};
+		72BA4F6821F8613900641A19 /* UserLogin */ = {
+			isa = PBXGroup;
+			children = (
+				72BA4F5821F85F3A00641A19 /* LoginController.swift */,
+				725635DB21F9D1F700B18B17 /* LoginPresent.swift */,
+				72BA4F6921F8615300641A19 /* LoginView.swift */,
+			);
+			path = UserLogin;
+			sourceTree = "<group>";
+		};
+		BB678E08739ECAC2772D6B41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A5B2FFD2D0FD1A0608DCEFC /* Pods-AttendMe.debug.xcconfig */,
+				BF499EE8FBF408B30144987D /* Pods-AttendMe.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72BA4F6521F85F3E00641A19 /* Build configuration list for PBXNativeTarget "AttendMe" */;
 			buildPhases = (
+				3337F861E1FC2DC7B5B60DDE /* [CP] Check Pods Manifest.lock */,
 				72BA4F4F21F85F3A00641A19 /* Sources */,
 				72BA4F5021F85F3A00641A19 /* Frameworks */,
 				72BA4F5121F85F3A00641A19 /* Resources */,
+				20AFCE91B366E39901339F79 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -100,7 +204,7 @@
 				};
 			};
 			buildConfigurationList = 72BA4F4E21F85F3A00641A19 /* Build configuration list for PBXProject "AttendMe" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -124,33 +228,78 @@
 			files = (
 				72BA4F6121F85F3E00641A19 /* LaunchScreen.storyboard in Resources */,
 				72BA4F5E21F85F3E00641A19 /* Assets.xcassets in Resources */,
-				72BA4F5C21F85F3A00641A19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20AFCE91B366E39901339F79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AttendMe/Pods-AttendMe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AttendMe/Pods-AttendMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3337F861E1FC2DC7B5B60DDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AttendMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		72BA4F4F21F85F3A00641A19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72BA4F5921F85F3A00641A19 /* ViewController.swift in Sources */,
+				72BA4F6A21F8615300641A19 /* LoginView.swift in Sources */,
+				725635D421F996C100B18B17 /* ScheduleTableView.swift in Sources */,
+				725635D721F9977200B18B17 /* SettingTableView.swift in Sources */,
+				72BA4F5921F85F3A00641A19 /* LoginController.swift in Sources */,
+				725635D121F9870E00B18B17 /* UserTabBar.swift in Sources */,
+				725635DA21F9993B00B18B17 /* MyTeacherTableViewController.swift in Sources */,
 				72BA4F5721F85F3A00641A19 /* AppDelegate.swift in Sources */,
+				725635DC21F9D1F700B18B17 /* LoginPresent.swift in Sources */,
+				72E42A342201554A003C46B9 /* ScheduleDetailTableViewCell.swift in Sources */,
+				725635DE21F9D6B600B18B17 /* ScheduleTableViewCell.swift in Sources */,
+				726676EB21FF0D1900AAA9D5 /* ScheduleDetailTableViewController.swift in Sources */,
+				72E42A32220151F0003C46B9 /* ScheduleDetailTableViewHeader.swift in Sources */,
+				726676ED21FF144700AAA9D5 /* MyTeacherTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		72BA4F5A21F85F3A00641A19 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				72BA4F5B21F85F3A00641A19 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		72BA4F5F21F85F3E00641A19 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,11 +429,13 @@
 		};
 		72BA4F6621F85F3E00641A19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5B2FFD2D0FD1A0608DCEFC /* Pods-AttendMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D26TWZU8R5;
 				INFOPLIST_FILE = AttendMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,17 +443,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cheena.AttendMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		72BA4F6721F85F3E00641A19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF499EE8FBF408B30144987D /* Pods-AttendMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D26TWZU8R5;
 				INFOPLIST_FILE = AttendMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cheena.AttendMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
