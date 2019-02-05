@@ -29,7 +29,7 @@ class ScheduleDetailTableViewHeader: UITableViewCell {
         self.addSubview(lesson)
         self.addSubview(img)
         img.snp.makeConstraints { (cons) in
-            cons.top.equalTo(self).inset(10)
+            cons.top.equalTo(self).inset(5)
             cons.centerX.equalTo(self)
             cons.width.equalTo(100)
             cons.height.equalTo(100)
@@ -38,17 +38,18 @@ class ScheduleDetailTableViewHeader: UITableViewCell {
             cons.top.equalTo(img.snp.bottom).offset(10)
             cons.centerX.equalTo(self)
             cons.height.equalTo(30)
-            cons.left.equalTo(self).inset(10)
-            cons.right.equalTo(self).inset(10)
+            cons.width.equalTo(100)
         }
         lesson.snp.makeConstraints { (cons) in
-            cons.top.equalTo(teacher.snp.bottom).offset(10)
+            cons.top.equalTo(teacher.snp.bottom).offset(5)
             cons.centerX.equalTo(self)
             cons.height.equalTo(30)
-            cons.left.equalTo(self).inset(10)
-            cons.right.equalTo(self).inset(10)
+            cons.width.equalTo(100)
         }
-        
+        lesson.textAlignment = .center
+        teacher.textAlignment = .center
+        lesson.text = "SDP 9"
+        teacher.text = "Arman Myrzakanurov"
     }
     
     
@@ -59,6 +60,9 @@ class ScheduleDetailTableViewHeader: UITableViewCell {
         lesson.font = UIFont(name: "Arial", size: 13)
         teacher.font = UIFont(name: "Arial", size: 13)
         img.layer.cornerRadius = 50
+        img.layer.masksToBounds = true
+        img.clipsToBounds = true
+        img.contentMode = .scaleAspectFill
         img.image = UIImage.init(named: "avatar")
     }
     
@@ -68,8 +72,8 @@ class ScheduleDetailTableViewHeader: UITableViewCell {
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
     }
-
+    
 }

@@ -27,13 +27,13 @@ class ScheduleTableViewCell: UITableViewCell {
         teacher.text = "Арман Мырзакануров"
         place.text = "504 k."
         subject.text = "SDP 10"
-                contentView.frame = CGRect(x: 0, y: 0, width: 100, height:100)
+        contentView.frame = CGRect(x: 0, y: 0, width: 100, height:100)
         self.clipsToBounds = true
         layoutMargins = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
     }
     override func layoutSubviews() {
         super.layoutSubviews()
-     
+        
     }
     func addView() {
         self.addSubview(start_time)
@@ -57,7 +57,7 @@ class ScheduleTableViewCell: UITableViewCell {
             cons.top.equalTo(place.snp.bottom).offset(5)
             cons.left.equalTo(self).inset(30)
         }
-    
+        
     }
     
     func MakeStyle() {
@@ -76,12 +76,12 @@ class ScheduleTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
     }
-
+    
 }
 
 

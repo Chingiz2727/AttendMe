@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		504EA07C220948950047BDC1 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EA07A220948950047BDC1 /* SettingTableViewCell.swift */; };
+		504EA07D220948950047BDC1 /* ProfileClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EA07B220948950047BDC1 /* ProfileClass.swift */; };
 		725635D121F9870E00B18B17 /* UserTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725635D021F9870E00B18B17 /* UserTabBar.swift */; };
 		725635D421F996C100B18B17 /* ScheduleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725635D321F996C100B18B17 /* ScheduleTableView.swift */; };
 		725635D721F9977200B18B17 /* SettingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725635D621F9977200B18B17 /* SettingTableView.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		504EA07A220948950047BDC1 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		504EA07B220948950047BDC1 /* ProfileClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileClass.swift; sourceTree = "<group>"; };
 		6A5B2FFD2D0FD1A0608DCEFC /* Pods-AttendMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttendMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AttendMe/Pods-AttendMe.debug.xcconfig"; sourceTree = "<group>"; };
 		725635D021F9870E00B18B17 /* UserTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTabBar.swift; sourceTree = "<group>"; };
 		725635D321F996C100B18B17 /* ScheduleTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableView.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				725635D621F9977200B18B17 /* SettingTableView.swift */,
+				504EA07B220948950047BDC1 /* ProfileClass.swift */,
+				504EA07A220948950047BDC1 /* SettingTableViewCell.swift */,
 			);
 			path = SettinController;
 			sourceTree = "<group>";
@@ -283,11 +289,13 @@
 			files = (
 				72BA4F6A21F8615300641A19 /* LoginView.swift in Sources */,
 				725635D421F996C100B18B17 /* ScheduleTableView.swift in Sources */,
+				504EA07C220948950047BDC1 /* SettingTableViewCell.swift in Sources */,
 				725635D721F9977200B18B17 /* SettingTableView.swift in Sources */,
 				72BA4F5921F85F3A00641A19 /* LoginController.swift in Sources */,
 				725635D121F9870E00B18B17 /* UserTabBar.swift in Sources */,
 				725635DA21F9993B00B18B17 /* MyTeacherTableViewController.swift in Sources */,
 				72BA4F5721F85F3A00641A19 /* AppDelegate.swift in Sources */,
+				504EA07D220948950047BDC1 /* ProfileClass.swift in Sources */,
 				725635DC21F9D1F700B18B17 /* LoginPresent.swift in Sources */,
 				72E42A342201554A003C46B9 /* ScheduleDetailTableViewCell.swift in Sources */,
 				725635DE21F9D6B600B18B17 /* ScheduleTableViewCell.swift in Sources */,

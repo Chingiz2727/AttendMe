@@ -16,7 +16,7 @@ class MyTeacherTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-
+        
     }
     
     func addview() {
@@ -37,7 +37,7 @@ class MyTeacherTableViewCell: UITableViewCell {
             cons.width.equalTo(100)
         }
         teacher.numberOfLines = 0
-      
+        
         name.font = UIFont(name: "Arial", size: 13)
         teacher.font = UIFont(name: "Arial", size: 13)
         name.text = "SDP 9 "
@@ -56,8 +56,8 @@ class MyTeacherTableViewCell: UITableViewCell {
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
     }
-
+    
 }
