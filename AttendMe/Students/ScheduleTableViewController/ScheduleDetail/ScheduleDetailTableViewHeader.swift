@@ -22,6 +22,7 @@ class ScheduleDetailTableViewHeader: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         addview()
         addstyle()
+        self.backgroundColor = UIColor.white
     }
     
     func addview() {

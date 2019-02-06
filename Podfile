@@ -7,6 +7,8 @@ target 'AttendMe' do
 pod 'SnapKit', '~> 4.0.0'
 pod 'Alamofire', '~> 4.7'
 pod 'SwiftyJSON', '~> 4.0'
+pod 'M13Checkbox'
+
   # Pods for AttendMe
 
 end

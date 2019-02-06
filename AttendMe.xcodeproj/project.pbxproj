@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		504EA07C220948950047BDC1 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EA07A220948950047BDC1 /* SettingTableViewCell.swift */; };
 		504EA07D220948950047BDC1 /* ProfileClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EA07B220948950047BDC1 /* ProfileClass.swift */; };
+		504EA07F22094E100047BDC1 /* CheckMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EA07E22094E100047BDC1 /* CheckMeViewController.swift */; };
+		504EA081220956C80047BDC1 /* MakeAttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EA080220956C80047BDC1 /* MakeAttendanceViewController.swift */; };
+		504EA0832209574F0047BDC1 /* MakeAttendaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EA0822209574F0047BDC1 /* MakeAttendaceView.swift */; };
+		504EA08822097AD70047BDC1 /* TeacherScheduleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EA08722097AD70047BDC1 /* TeacherScheduleTableView.swift */; };
+		504EA08A2209994A0047BDC1 /* TeacherScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EA0892209994A0047BDC1 /* TeacherScheduleTableViewCell.swift */; };
+		50EC07D6220A8C420094CA59 /* TeacherScheduleTableViewFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EC07D5220A8C420094CA59 /* TeacherScheduleTableViewFooter.swift */; };
 		725635D121F9870E00B18B17 /* UserTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725635D021F9870E00B18B17 /* UserTabBar.swift */; };
 		725635D421F996C100B18B17 /* ScheduleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725635D321F996C100B18B17 /* ScheduleTableView.swift */; };
 		725635D721F9977200B18B17 /* SettingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725635D621F9977200B18B17 /* SettingTableView.swift */; };
@@ -30,6 +36,12 @@
 /* Begin PBXFileReference section */
 		504EA07A220948950047BDC1 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 		504EA07B220948950047BDC1 /* ProfileClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileClass.swift; sourceTree = "<group>"; };
+		504EA07E22094E100047BDC1 /* CheckMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMeViewController.swift; sourceTree = "<group>"; };
+		504EA080220956C80047BDC1 /* MakeAttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeAttendanceViewController.swift; sourceTree = "<group>"; };
+		504EA0822209574F0047BDC1 /* MakeAttendaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeAttendaceView.swift; sourceTree = "<group>"; };
+		504EA08722097AD70047BDC1 /* TeacherScheduleTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherScheduleTableView.swift; sourceTree = "<group>"; };
+		504EA0892209994A0047BDC1 /* TeacherScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		50EC07D5220A8C420094CA59 /* TeacherScheduleTableViewFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherScheduleTableViewFooter.swift; sourceTree = "<group>"; };
 		6A5B2FFD2D0FD1A0608DCEFC /* Pods-AttendMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AttendMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AttendMe/Pods-AttendMe.debug.xcconfig"; sourceTree = "<group>"; };
 		725635D021F9870E00B18B17 /* UserTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTabBar.swift; sourceTree = "<group>"; };
 		725635D321F996C100B18B17 /* ScheduleTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableView.swift; sourceTree = "<group>"; };
@@ -72,6 +84,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		504EA084220965B80047BDC1 /* Students */ = {
+			isa = PBXGroup;
+			children = (
+				725635D821F9992800B18B17 /* MyTeachers */,
+				725635D521F9976100B18B17 /* SettinController */,
+				725635D221F9962000B18B17 /* ScheduleTableViewController */,
+				725635CF21F986C100B18B17 /* TabBar */,
+			);
+			path = Students;
+			sourceTree = "<group>";
+		};
+		504EA085220965C80047BDC1 /* Teachers */ = {
+			isa = PBXGroup;
+			children = (
+				504EA086220968EC0047BDC1 /* TeacherSchedule */,
+			);
+			path = Teachers;
+			sourceTree = "<group>";
+		};
+		504EA086220968EC0047BDC1 /* TeacherSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				504EA08722097AD70047BDC1 /* TeacherScheduleTableView.swift */,
+				504EA0892209994A0047BDC1 /* TeacherScheduleTableViewCell.swift */,
+				50EC07D5220A8C420094CA59 /* TeacherScheduleTableViewFooter.swift */,
+			);
+			path = TeacherSchedule;
+			sourceTree = "<group>";
+		};
 		725635CF21F986C100B18B17 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +127,9 @@
 				726676E921FF0CEF00AAA9D5 /* ScheduleDetail */,
 				725635D321F996C100B18B17 /* ScheduleTableView.swift */,
 				725635DD21F9D6B600B18B17 /* ScheduleTableViewCell.swift */,
+				504EA07E22094E100047BDC1 /* CheckMeViewController.swift */,
+				504EA080220956C80047BDC1 /* MakeAttendanceViewController.swift */,
+				504EA0822209574F0047BDC1 /* MakeAttendaceView.swift */,
 			);
 			path = ScheduleTableViewController;
 			sourceTree = "<group>";
@@ -141,10 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				72BA4F5621F85F3A00641A19 /* AppDelegate.swift */,
-				725635D821F9992800B18B17 /* MyTeachers */,
-				725635D521F9976100B18B17 /* SettinController */,
-				725635D221F9962000B18B17 /* ScheduleTableViewController */,
-				725635CF21F986C100B18B17 /* TabBar */,
+				504EA085220965C80047BDC1 /* Teachers */,
+				504EA084220965B80047BDC1 /* Students */,
 				72BA4F5D21F85F3E00641A19 /* Assets.xcassets */,
 				72BA4F6821F8613900641A19 /* UserLogin */,
 				72BA4F5F21F85F3E00641A19 /* LaunchScreen.storyboard */,
@@ -248,12 +290,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AttendMe/Pods-AttendMe-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13Checkbox.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -292,12 +336,18 @@
 				504EA07C220948950047BDC1 /* SettingTableViewCell.swift in Sources */,
 				725635D721F9977200B18B17 /* SettingTableView.swift in Sources */,
 				72BA4F5921F85F3A00641A19 /* LoginController.swift in Sources */,
+				504EA07F22094E100047BDC1 /* CheckMeViewController.swift in Sources */,
+				504EA0832209574F0047BDC1 /* MakeAttendaceView.swift in Sources */,
 				725635D121F9870E00B18B17 /* UserTabBar.swift in Sources */,
+				504EA081220956C80047BDC1 /* MakeAttendanceViewController.swift in Sources */,
+				504EA08A2209994A0047BDC1 /* TeacherScheduleTableViewCell.swift in Sources */,
 				725635DA21F9993B00B18B17 /* MyTeacherTableViewController.swift in Sources */,
 				72BA4F5721F85F3A00641A19 /* AppDelegate.swift in Sources */,
 				504EA07D220948950047BDC1 /* ProfileClass.swift in Sources */,
 				725635DC21F9D1F700B18B17 /* LoginPresent.swift in Sources */,
 				72E42A342201554A003C46B9 /* ScheduleDetailTableViewCell.swift in Sources */,
+				504EA08822097AD70047BDC1 /* TeacherScheduleTableView.swift in Sources */,
+				50EC07D6220A8C420094CA59 /* TeacherScheduleTableViewFooter.swift in Sources */,
 				725635DE21F9D6B600B18B17 /* ScheduleTableViewCell.swift in Sources */,
 				726676EB21FF0D1900AAA9D5 /* ScheduleDetailTableViewController.swift in Sources */,
 				72E42A32220151F0003C46B9 /* ScheduleDetailTableViewHeader.swift in Sources */,
